@@ -1,0 +1,105 @@
+.shape-banner {
+  background: url('https://bibit.id/img/backGround1.svg') no-repeat right;
+  height: 80vw;
+  position: absolute;
+  right: -42%;
+  top: -55%;
+  width: 100%;
+  z-index: 1;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.wrap-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.width-60 {
+  width: 59.3%;
+}
+
+.col-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.nomargin-left {
+  margin-left: 0 !important;
+}
+
+.width-40 {
+  width: 39.3%;
+}
+
+.nomargin-right {
+  margin-right: 0 !important;
+}
+
+.banner-desc {
+  width: 100%;
+  z-index: 5;
+}
+
+.banner-desc h1 {
+  color: #00ab6b;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.banner-desc h2 {
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.digital-store li:first-child {
+  margin-right: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.banner-desc p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.digital-store a {
+  margin: 0 10px 0 0;
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 5;
+}
+
+.phone-img {
+  max-width: 350px;
+  width: 22.4vw;
+}
+
+.phone-video {
+  max-width: 318px;
+  width: 20.2vw;
+  position: absolute;
+  transform: translate(-1px, -5px);
+}
+
+section {
+  padding: 100px 0;
+}
