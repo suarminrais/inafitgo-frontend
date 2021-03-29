@@ -1,4 +1,5 @@
 import React from 'react'
+import './footer.styles.css'
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div class="bottom-foot-wrap">
         <div class="bottom-foot">
           <div id="footbit1" class="width-50 bottom-foot-col">
-            <img src="img/logoBibitFix.svg" alt="logo bibit" width="80px" /><span>Copyright © 2020</span>
+            <img src="https://bibit.id/img/logoBibitFix.svg" alt="logo bibit" width="80px" /><span>Copyright © 2020</span>
           </div>
           <div id="footbit2" class="width-50 bottom-foot-col">
             a <img src="https://stockbit.com/assets/img/stockbit.svg" alt="logo stockbit" width="80px" /> Company
