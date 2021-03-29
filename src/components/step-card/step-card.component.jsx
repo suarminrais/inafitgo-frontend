@@ -3,11 +3,11 @@ import './step-card.styles.css'
 
 const StepCard = ({ img, title, text }) => {
   return (
-    <figure class="col-3">
-      <div class="box-number">
-        <img class="number-icon" src={img} alt="icon order one" />
+    <figure className="col-3">
+      <div className="box-number">
+        <img className="number-icon" src={img} alt="icon order one" />
       </div>
-      <figcaption class="shadow-box">
+      <figcaption className="shadow-box">
         <h5>{title}</h5>
         <p>{text}</p>
       </figcaption>

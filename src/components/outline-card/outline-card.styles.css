@@ -1,0 +1,28 @@
+.invest-box {
+  background: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+  padding: 24px 34px;
+  width: calc((100% - 200px) / 2);
+}
+
+.invest-pic {
+  margin: 0 40px 0 0;
+}
+
+.invest-desc {
+  line-height: 25px;
+  text-align: left;
+}
+
+.invest-desc h5 {
+  font-weight: bold;
+}
+
+.invest-desc p {
+  font-weight: 300;
+}

@@ -1,5 +1,6 @@
 import Headline from "./components/headline/headline.component"
 import Navbar from "./components/navbar/navbar.component"
+import OutLine from "./components/outline/outline.component"
 import Section from "./components/section/section.component"
 import Step from "./components/step/step.component"
 
@@ -13,6 +14,7 @@ const App = () => {
       <Headline title="REBALANCING OTOMATIS" image="https://bibit.id/img/illustration4.svg" icon="https://bibit.id/img/machineIcon.png" text="Teknologi kami akan bekerja dan memantau portfolio kamu secara otomatis untuk mempertahankan alokasi optimal kamu." />
       <Headline accent turn title="BUKA AKUN SECARA INSTAN" image="https://bibit.id/img/illustration5.svg" icon="https://bibit.id/img/fastIcon.png" text="Pembukaan rekening secara digital dan dapat diselesaikan dalam hitungan menit. Tanpa formulir, tanpa financial planner, tanpa spreadsheet. Tanpa ribet." />
       <Step />
+      <OutLine />
     </>
   );
 }
