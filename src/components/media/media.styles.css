@@ -1,0 +1,95 @@
+.margin-top-100 {
+  margin-top: 100px !important;
+}
+
+.row-col-block {
+  display: block;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.col-1 {
+  display: inline-block;
+  margin: 2px;
+  position: relative;
+  width: 100%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.content-center {
+  margin: 0 auto 30px;
+  width: 100%;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.affiliate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.affiliate a img {
+  margin: 0 28px;
+  width: 100px;
+}
+
+.col-box {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  margin: 0 12%;
+  padding: 40px;
+}
+
+.col-box h2 {
+  color: #00ab6b;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.invest-manager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  padding-bottom: 20px;
+}
+
+.invest-manager img {
+  margin: 0 22px;
+  text-align: center;
+  width: 150px;
+}
+
+.digital-store-bottom a:last-child img {
+  width: 115px;
+}
+
+.digital-store-bottom a:first-child img {
+  width: 120px;
+}
+
+.digital-store-bottom a {
+  margin: 0 14px 0;
+  text-decoration: none;
+}

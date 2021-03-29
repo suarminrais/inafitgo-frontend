@@ -1,4 +1,5 @@
 import Headline from "./components/headline/headline.component"
+import Media from "./components/media/media.component"
 import Navbar from "./components/navbar/navbar.component"
 import OutLine from "./components/outline/outline.component"
 import Section from "./components/section/section.component"
@@ -15,6 +16,8 @@ const App = () => {
       <Headline accent turn title="BUKA AKUN SECARA INSTAN" image="https://bibit.id/img/illustration5.svg" icon="https://bibit.id/img/fastIcon.png" text="Pembukaan rekening secara digital dan dapat diselesaikan dalam hitungan menit. Tanpa formulir, tanpa financial planner, tanpa spreadsheet. Tanpa ribet." />
       <Step />
       <OutLine />
+      <Headline image="https://bibit.id/img/illustration8.svg" icon="https://bibit.id/img/shieldIcon.png" title="KEAMANAN DANA DARI BANK" text="Bibit tidak menyimpan dana kamu. Dana yang kamu investasikan ditransfer langsung ke kustodian bank dan dikelola oleh perusahaan berlisensi OJK. Dana hanya dapat dicairkan ke rekening atas nama kamu." />
+      <Media />
     </>
   );
 }
