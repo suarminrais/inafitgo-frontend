@@ -1,0 +1,54 @@
+.col-3 {
+  display: inline-block;
+  position: relative;
+  width: 32%;
+}
+
+.shadow-box {
+  background: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  border-radius: 15px;
+  color: #6b7c93;
+  line-height: 25px;
+  margin: 0 auto;
+  min-height: 140px;
+  padding: 24px 20px 20px 45px;
+  text-align: center;
+  width: 220px;
+}
+
+.box-number {
+  left: 50%;
+  margin-left: -168px;
+  position: absolute;
+  top: 25px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .box-number {
+    margin-left: -145px;
+  }
+
+  .shadow-box {
+    min-height: 190px;
+    width: 180px;
+  }
+}
+
+.number-icon {
+  width: 48px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.shadow-box h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shadow-box p {
+  font-weight: 300;
+}

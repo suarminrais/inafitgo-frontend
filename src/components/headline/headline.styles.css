@@ -1,0 +1,104 @@
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  width: 85%;
+}
+
+.wrap-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.width-50 {
+  width: 49.3%;
+}
+
+.nomargin-left {
+  margin-left: 0 !important;
+}
+
+.col-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.margin-min-22 {
+  margin-left: -22%;
+}
+
+.content-image {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nomargin-right {
+  margin-right: 0 !important;
+}
+
+.content-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.content-icon {
+  margin: 0 40px 0 0;
+  width: 50px;
+}
+
+.content-title h3 {
+  color: #2478b4;
+  font-size: 22px;
+}
+
+.content-desc {
+  display: block;
+}
+
+.content-desc p {
+  color: #6b7c93;
+  font-size: 19px;
+  line-height: 30px;
+  margin: 32px 0;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.padding-right-30-desk {
+  padding-right: 30px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.accent {
+  background: url("https://bibit.id/img/backGround5.svg") #F6F9FC center top no-repeat;
+  background-size: 100%;
+  padding: 50px 0 30px;
+  width: 100vw;
+}
+
+.width-60 {
+  width: 59.3%;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}

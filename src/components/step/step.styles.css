@@ -1,0 +1,25 @@
+.grey {
+  background: #F6F9FC;
+  padding: 100px 0;
+  width: 100vw;
+}
+
+.nomargin {
+  margin: 0 !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  width: 85%;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.row-col-flex {
+  display: flex;
+  justify-content: space-between;
+}
