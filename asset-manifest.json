@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/inafitgo-frontend/static/css/main.ceaac877.chunk.css",
+    "main.js": "/inafitgo-frontend/static/js/main.f8e1f69c.chunk.js",
+    "main.js.map": "/inafitgo-frontend/static/js/main.f8e1f69c.chunk.js.map",
+    "runtime-main.js": "/inafitgo-frontend/static/js/runtime-main.0cd54aea.js",
+    "runtime-main.js.map": "/inafitgo-frontend/static/js/runtime-main.0cd54aea.js.map",
+    "static/js/2.d0ea4a53.chunk.js": "/inafitgo-frontend/static/js/2.d0ea4a53.chunk.js",
+    "static/js/2.d0ea4a53.chunk.js.map": "/inafitgo-frontend/static/js/2.d0ea4a53.chunk.js.map",
+    "static/js/3.8dfc0b0c.chunk.js": "/inafitgo-frontend/static/js/3.8dfc0b0c.chunk.js",
+    "static/js/3.8dfc0b0c.chunk.js.map": "/inafitgo-frontend/static/js/3.8dfc0b0c.chunk.js.map",
+    "index.html": "/inafitgo-frontend/index.html",
+    "static/css/main.ceaac877.chunk.css.map": "/inafitgo-frontend/static/css/main.ceaac877.chunk.css.map",
+    "static/js/2.d0ea4a53.chunk.js.LICENSE.txt": "/inafitgo-frontend/static/js/2.d0ea4a53.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cd54aea.js",
+    "static/js/2.d0ea4a53.chunk.js",
+    "static/css/main.ceaac877.chunk.css",
+    "static/js/main.f8e1f69c.chunk.js"
+  ]
+}
