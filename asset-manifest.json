@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/inafitgo-frontend/static/css/main.ceaac877.chunk.css",
-    "main.js": "/inafitgo-frontend/static/js/main.f8e1f69c.chunk.js",
-    "main.js.map": "/inafitgo-frontend/static/js/main.f8e1f69c.chunk.js.map",
+    "main.css": "/inafitgo-frontend/static/css/main.ed72c9ba.chunk.css",
+    "main.js": "/inafitgo-frontend/static/js/main.0ac4c723.chunk.js",
+    "main.js.map": "/inafitgo-frontend/static/js/main.0ac4c723.chunk.js.map",
     "runtime-main.js": "/inafitgo-frontend/static/js/runtime-main.0cd54aea.js",
     "runtime-main.js.map": "/inafitgo-frontend/static/js/runtime-main.0cd54aea.js.map",
     "static/js/2.d0ea4a53.chunk.js": "/inafitgo-frontend/static/js/2.d0ea4a53.chunk.js",
@@ -10,13 +10,23 @@
     "static/js/3.8dfc0b0c.chunk.js": "/inafitgo-frontend/static/js/3.8dfc0b0c.chunk.js",
     "static/js/3.8dfc0b0c.chunk.js.map": "/inafitgo-frontend/static/js/3.8dfc0b0c.chunk.js.map",
     "index.html": "/inafitgo-frontend/index.html",
-    "static/css/main.ceaac877.chunk.css.map": "/inafitgo-frontend/static/css/main.ceaac877.chunk.css.map",
-    "static/js/2.d0ea4a53.chunk.js.LICENSE.txt": "/inafitgo-frontend/static/js/2.d0ea4a53.chunk.js.LICENSE.txt"
+    "static/css/main.ed72c9ba.chunk.css.map": "/inafitgo-frontend/static/css/main.ed72c9ba.chunk.css.map",
+    "static/js/2.d0ea4a53.chunk.js.LICENSE.txt": "/inafitgo-frontend/static/js/2.d0ea4a53.chunk.js.LICENSE.txt",
+    "static/media/gizi.eb9c78cb.png": "/inafitgo-frontend/static/media/gizi.eb9c78cb.png",
+    "static/media/gratis.20a69d43.png": "/inafitgo-frontend/static/media/gratis.20a69d43.png",
+    "static/media/logo.55b3ef86.png": "/inafitgo-frontend/static/media/logo.55b3ef86.png",
+    "static/media/trainer.629da192.png": "/inafitgo-frontend/static/media/trainer.629da192.png",
+    "static/media/ui.0e8878ca.png": "/inafitgo-frontend/static/media/ui.0e8878ca.png",
+    "static/media/ui1.9567a1ff.png": "/inafitgo-frontend/static/media/ui1.9567a1ff.png",
+    "static/media/ui2.1f02995b.png": "/inafitgo-frontend/static/media/ui2.1f02995b.png",
+    "static/media/ui3.9551a362.png": "/inafitgo-frontend/static/media/ui3.9551a362.png",
+    "static/media/ui4.20b94910.png": "/inafitgo-frontend/static/media/ui4.20b94910.png",
+    "static/media/video.cf36410b.png": "/inafitgo-frontend/static/media/video.cf36410b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0cd54aea.js",
     "static/js/2.d0ea4a53.chunk.js",
-    "static/css/main.ceaac877.chunk.css",
-    "static/js/main.f8e1f69c.chunk.js"
+    "static/css/main.ed72c9ba.chunk.css",
+    "static/js/main.0ac4c723.chunk.js"
   ]
 }
