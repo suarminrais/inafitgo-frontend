@@ -1,5 +1,6 @@
 import React from 'react'
 import './section.styles.css'
+import phone from './ui.png'
 
 const Section = () => {
   return (
@@ -8,8 +9,8 @@ const Section = () => {
       <div className="wrap-flex margin-top-10">
         <div className="col-flex width-60 nomargin-left">
           <div className="banner-desc">
-            <h1>INVESTASI REKSA DANA <br />SECARA OTOMATIS</h1>
-            <h2>Bibit menempatkan uang kamu ke portfolio <br />reksa dana secara cerdas dan tanpa ribet.</h2>
+            <h1>APAPUN AKTIFITAS ANDA <br />BERGIZI DAN BUGAR DENGAN INAFITGO <br /> #SEHATBERSAMAINAFITGO</h1>
+            <h2>INAFITGO membantu anda dalam mengatur pola gizi yang baik dengan berkonsultasi dengan Ahli Gizi dan Membentuk tubuh yang ideal bersama Trainer Profesional yang tersertifikasi.</h2>
             <ul className="digital-store">
               <li className="inline-block">
                 <a href="https://play.google.com/store/apps/details?id=com.bibit.bibitid" target="_blank" rel="noopener noreferrer">
@@ -22,20 +23,11 @@ const Section = () => {
                 </a>
               </li>
             </ul>
-            <p>Terdaftar dan Diawasi oleh</p>
-            <div>
-              <a href="https://reksadana.ojk.go.id/Public/APERDPublic.aspx?id=BTB69" target="_blank" rel="noopener noreferrer">
-                <img src="https://bibit.id/img/ojk.png" alt="ojk icon" width="118px" />
-              </a>
-            </div>
           </div>
         </div>
         <div className="col-flex width-40 nomargin-right">
           <div className="phone-container" style={{ transform: 'matrix(1, 0, 0, 1, -9.15, 3.30833)' }}>
-            <img className="phone-img" src="https://bibit.id/img/mockup.png" alt="phone" />
-            <video className="phone-video" autoplay="" loop="" muted="" playsinline="">
-              <source src="https://bibit.id/img/bibitvideo.mp4" />
-            </video>
+            <img className="phone-img" src={phone} alt="phone" />
           </div>
         </div>
       </div>
