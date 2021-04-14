@@ -7,9 +7,9 @@ const Step = () => {
     <section className="nomargin grey">
       <div className="container">
         <div className="row-col-flex margin-auto">
-          <StepCard img="https://bibit.id/img/orderOne.png" title="Kita Pelajari Profil Kamu" text="Kita ingin mengetahui tujuan investasi kamu, umur kamu dan pandangan kamu terhadap resiko" />
-          <StepCard img="https://bibit.id/img/orderTwo.png" title="Kita Bangun Portfolio Investasi Kamu" text="Kita berikan saran investasi yang optimal berdasarkan toleransi kamu terhadap resiko" />
-          <StepCard img="https://bibit.id/img/orderThree.png" title="Uang Kamu Mulai Bekerja Lebih Keras Untuk Kamu" text="Set up sekali dan mulai lihat bibit masa depan kamu bertumbuh tanpa ribet" />
+          <StepCard img="https://bibit.id/img/orderOne.png" title="Cek Status Gizi dan Fisik" text="Kita akan mempelajari status gizi dan kondisi fisik kamu sehingga bisa membuat formula yang tepat sesuai kebutuhan" />
+          <StepCard img="https://bibit.id/img/orderTwo.png" title="Konsultasi Gizi" text="Kita akan mempelajari status gizi kamu sehingga bisa membuat formula yang tepat sesuai kebutuhan kamu" />
+          <StepCard img="https://bibit.id/img/orderThree.png" title="Konsultasi Personal Trainer" text="Kita akan mempelajari status fisik kamu sehingga bisa membuat formula yang tepat sesuai kebutuhan kamu" />
         </div>
       </div>
     </section>
