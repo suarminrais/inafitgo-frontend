@@ -5,16 +5,20 @@ import Navbar from "./components/navbar/navbar.component"
 import OutLine from "./components/outline/outline.component"
 import Section from "./components/section/section.component"
 import Step from "./components/step/step.component"
+import ui from "./assets/ui1.png"
+import ui2 from "./assets/ui2.png"
+import ui3 from "./assets/ui3.png"
+import ui4 from "./assets/ui4.png"
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Section />
-      <Headline title="TEKNOLOGI YANG DIDUKUNG OLEH RISET PEMENANG NOBEL PRIZE" image="https://bibit.id/img/illustration2.svg" icon="https://bibit.id/img/processorIcon.png" text="Teknologi kami menggunakan pendekatan Teori Modern Portfolio yang diperkenalkan oleh ekonom Harry Markowitz yang sudah terbukti dapat menjaga resiko dan memaksimalkan keuntungan kamu lewat diversifikasi." />
-      <Headline turn title="INVESTASI YANG DIRANCANG KHUSUS UNTUK KAMU" image="https://bibit.id/img/illustration3.svg" icon="https://bibit.id/img/formulaIcon.png" text="Setiap orang mempunyai profil yang berbeda. Kita bantu menempatkan uang kamu ke portfolio reksadana yang khusus dibuat untuk kamu sesuai dengan umur, penghasilan dan toleransi kamu terhadap resiko. Secara otomatis." />
-      <Headline title="REBALANCING OTOMATIS" image="https://bibit.id/img/illustration4.svg" icon="https://bibit.id/img/machineIcon.png" text="Teknologi kami akan bekerja dan memantau portfolio kamu secara otomatis untuk mempertahankan alokasi optimal kamu." />
-      <Headline accent turn title="BUKA AKUN SECARA INSTAN" image="https://bibit.id/img/illustration5.svg" icon="https://bibit.id/img/fastIcon.png" text="Pembukaan rekening secara digital dan dapat diselesaikan dalam hitungan menit. Tanpa formulir, tanpa financial planner, tanpa spreadsheet. Tanpa ribet." />
+      <Headline title="INAFITGO PENGGUNA" image={ui2} icon="https://bibit.id/img/processorIcon.png" text="Inafitgo Pengguna merupakan tampilan aplikasi yang digunakan masyarakat dalam melakukan kegiatan konsultasi terhadap ahli gizi dan personal trainer dalam memenuhi gizi seimbang dan tubuh yang ideal." />
+      <Headline turn title="INAFITGO AHLI GIZI" image={ui3} icon="https://bibit.id/img/formulaIcon.png" text="Inafitgo Ahli Gizi merupakan tampilan aplikasi yang digunakan Ahli Gizi dalam melakukan kegiatan konsultasi kepada masyarakat secara berkala sesuai dengan waktu yang telah ditetapkan." />
+      <Headline title="INAFITGO PERSONAL TRAINER" image={ui4} icon="https://bibit.id/img/machineIcon.png" text="Inafitgo Personal Trainer merupakan tampilan aplikasi yang digunakan Personal Trainer dalam melakukan kegiatan konsultasi ataupun latihan fisik kepada masyarakat secara berkala sesuai dengan waktu yang telah ditentukan." />
+      <Headline accent turn title="INAFITGO VIDEO TIPS GIZI & OLAHRAGA" image={ui} icon="https://bibit.id/img/fastIcon.png" text="Inafitgo Video merupakan tampilan literatur/referensi tips untuk memulai gizi seimbang dan latihan fisik/olahraga secara teratur bersama Inafitgo" />
       <Step />
       <OutLine />
       <Headline image="https://bibit.id/img/illustration8.svg" icon="https://bibit.id/img/shieldIcon.png" title="KEAMANAN DANA DARI BANK" text="Bibit tidak menyimpan dana kamu. Dana yang kamu investasikan ditransfer langsung ke kustodian bank dan dikelola oleh perusahaan berlisensi OJK. Dana hanya dapat dicairkan ke rekening atas nama kamu." />
