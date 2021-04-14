@@ -5,7 +5,7 @@ const Media = () => {
   return (
     <section className="container">
       <div className="row-col-block margin-top-100">
-        <div className="col-1 margin-bottom-50">
+        {/* <div className="col-1 margin-bottom-50">
           <div className="content-center align-center">
             <h3 className="font-22 margin-top-30 margin-bottom-30">Telah diliput oleh</h3>
             <div className="affiliate">
@@ -29,7 +29,7 @@ const Media = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-1 margin-bottom-50">
           <div className="content-center align-center">
             <h3 className="font-22 margin-top-30 margin-bottom-30">Partner Kami</h3>

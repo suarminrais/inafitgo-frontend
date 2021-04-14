@@ -1,6 +1,10 @@
 import React from 'react'
 import OutlineCard from '../outline-card/outline-card.component'
 import './outline.styles.css'
+import gratis from './gratis.png'
+import gizi from './gizi.png'
+import trainer from './trainer.png'
+import video from './video.png'
 
 const OutLine = () => {
   return (
@@ -11,15 +15,15 @@ const OutLine = () => {
             <div className="content-center">
               <div className="content-title display-block">
                 <img className="content-icon nomargin" src="https://bibit.id/img/ideaIcon.png" alt="icon idea" />
-                <h3 className="margin-top-30">KEUNTUNGAN INVESTASI DENGAN BIBIT</h3>
+                <h3 className="margin-top-30">KEUNTUNGAN MENGGUNAKAN INAFITGO</h3>
               </div>
             </div>
           </div>
           <div className="invest-wrap margin-top-30">
-            <OutlineCard img="https://bibit.id/img/rpNol.svg" title="Gratis Biaya Komisi" teks="Biaya Rp0. Semua pembelian reksadana di Bibit gratis biaya komisi." />
-            <OutlineCard img="https://bibit.id/img/minimInvestasi.svg" title="Dana Investasi yang Minim" teks="Kamu bisa mulai dengan dana serendah Rp10.000 dulu sampai kamu nyaman berinvestasi. Yang penting mulai." />
-            <OutlineCard img="https://bibit.id/img/cairkanInvestasi.svg" title="Cairkan Investasimu Kapan Saja" teks="Dana investasi dapat dicairkan kapanpun dengan cepat tanpa penalti." />
-            <OutlineCard img="https://bibit.id/img/taxFree.svg" title="Tidak Dipajak" teks="Keuntungan dari Reksa dana bukan merupakan objek pajak. Berbeda dengan investasi properti ataupun emas." />
+            <OutlineCard img={gratis} title="Gratis Biaya Cek Status Gizi" teks="Inafitgo memberikan pelayanan cek status gizi secara gratis dengan cepat dan mudah." />
+            <OutlineCard img={gizi} title="Konsultan GIZI tersertifikasi" teks="Inafitgo memiliki ahli gizi yang tersertifikasi dengan latar pendidikan yang baik." />
+            <OutlineCard img={trainer} title="Konsultan Personal Trainer tersertifikasi" teks="Inafitgo memiliki personal trainer yang tersertifikasi dengan pengalaman nasional dan internasional." />
+            <OutlineCard img={video} title="Bimbingan Gizi dan Latihan Fisik Video" teks="Inafitgo memberikan informasi dalam bentuk video interaktif." />
           </div>
         </div>
       </div>
