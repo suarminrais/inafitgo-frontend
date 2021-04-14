@@ -19,8 +19,8 @@ header {
 }
 
 .logo img {
-  margin: 14px 0;
-  width: 100px;
+  width: auto;
+  height: 50px;
 }
 
 img {
@@ -30,7 +30,6 @@ img {
 .menus {
   float: right;
   height: 50px;
-  width: 300px;
 }
 
 .menus nav {
