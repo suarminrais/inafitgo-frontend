@@ -46,6 +46,10 @@ img {
 }
 
 .sticky {
-  background: #fff;
+  background: #47A897;
   transition: 1s ease-out;
+}
+
+.black-nav a {
+  color: #47A897;
 }

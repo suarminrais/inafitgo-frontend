@@ -9,7 +9,7 @@ const Section = () => {
       <div className="wrap-flex margin-top-10">
         <div className="col-flex width-60 nomargin-left">
           <div className="banner-desc">
-            <h1>APAPUN AKTIFITAS ANDA <br />BERGIZI DAN BUGAR DENGAN INAFITGO <br /> #SEHATBERSAMAINAFITGO</h1>
+            <h1>BERGIZI DAN BUGAR DENGAN INAFITGO <br /> #SEHATBERSAMAINAFITGO</h1>
             <h2>INAFITGO membantu anda dalam mengatur pola gizi yang baik dengan berkonsultasi dengan Ahli Gizi dan Membentuk tubuh yang ideal bersama Trainer Profesional yang tersertifikasi.</h2>
             <ul className="digital-store">
               <li className="inline-block">

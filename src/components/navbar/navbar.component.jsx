@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <header className={sticky ? 'sticky' : ''}>
+    <header className={sticky ? 'sticky' : 'black-nav'}>
       <div className="container">
         <div className="logo">
           <a href="/">
