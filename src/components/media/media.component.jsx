@@ -1,5 +1,12 @@
 import React from 'react'
 import './media.styles.css'
+import a from '../../assets/sponsor/logo_ajinomoto.png'
+import b from '../../assets/sponsor/logo_herbalife.png'
+import c from '../../assets/sponsor/logo_indofood.png'
+import d from '../../assets/sponsor/logo_nestle.png'
+import e from '../../assets/sponsor/logo_nutrifood.png'
+import f from '../../assets/sponsor/logo_pama.png'
+import g from '../../assets/sponsor/logo_prodia.png'
 
 const Media = () => {
   return (
@@ -34,9 +41,13 @@ const Media = () => {
           <div className="content-center align-center">
             <h3 className="font-22 margin-top-30 margin-bottom-30">Partner Kami</h3>
             <div className="invest-manager">
-              <img src="https://bibit.id/img/manager-investasi/schroders.png" alt="" />
-              <img src="https://bibit.id/img/manager-investasi/manulife.png" alt="" />
-              <img src="https://bibit.id/img/manager-investasi/batavia.jpeg" alt="" />
+              <img src={a} alt="" />
+              <img src={b} alt="" />
+              <img src={c} alt="" />
+              <img src={d} alt="" />
+              <img src={e} alt="" />
+              <img src={f} alt="" />
+              <img src={g} alt="" />
             </div>
           </div>
         </div>

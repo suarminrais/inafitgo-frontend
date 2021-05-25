@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.styles.css'
+import a from '../navbar/logo.png'
 
 const Footer = () => {
   return (
@@ -7,15 +8,15 @@ const Footer = () => {
       <div class="bottom-foot-wrap">
         <div class="bottom-foot">
           <div id="footbit1" class="width-50 bottom-foot-col">
-            <img src="https://bibit.id/img/logoBibitFix.svg" alt="logo bibit" width="80px" /><span>Copyright © 2020</span>
+            <img src={a} alt="logo inafitgo" height="30px" /><span>Copyright © 2021</span>
           </div>
           <div id="footbit2" class="width-50 bottom-foot-col">
-            a <img src="https://stockbit.com/assets/img/stockbit.svg" alt="logo stockbit" width="80px" /> Company
-                </div>
+            {/* a <img src="https://stockbit.com/assets/img/stockbit.svg" alt="logo stockbit" width="80px" /> Company */}
+          </div>
         </div>
         <div class="foot-small-note">
-          <p>PT Bibit Tumbuh Bersama (“Bibit”) berlaku sebagai Agen Penjual Efek Reksa Dana (APERD) yang terdaftar dan diawasi&nbsp;oleh Otoritas Jasa Keuangan. </p>
-          <p>Semua Investasi mengandung risiko dan kemungkinan kerugian nilai investasi.&nbsp;Kinerja pada masa lalu tidak mencerminkan kinerja di masa depan. Kinerja historikal, expected return dan proyeksi probabilitas disediakan untuk tujuan informasi dan illustrasi. Reksa dana merupakan produk pasar modal dan bukan&nbsp;produk&nbsp;APERD. APERD&nbsp;tidak bertanggung jawab atas risiko pengelolaan portofolio yang dilakukan oleh Manajer Investasi.</p>
+          {/* <p>PT Bibit Tumbuh Bersama (“Bibit”) berlaku sebagai Agen Penjual Efek Reksa Dana (APERD) yang terdaftar dan diawasi&nbsp;oleh Otoritas Jasa Keuangan. </p> */}
+          {/* <p>Semua Investasi mengandung risiko dan kemungkinan kerugian nilai investasi.&nbsp;Kinerja pada masa lalu tidak mencerminkan kinerja di masa depan. Kinerja historikal, expected return dan proyeksi probabilitas disediakan untuk tujuan informasi dan illustrasi. Reksa dana merupakan produk pasar modal dan bukan&nbsp;produk&nbsp;APERD. APERD&nbsp;tidak bertanggung jawab atas risiko pengelolaan portofolio yang dilakukan oleh Manajer Investasi.</p> */}
         </div>
       </div>
     </footer>

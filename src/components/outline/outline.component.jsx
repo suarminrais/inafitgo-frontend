@@ -5,6 +5,7 @@ import gratis from './gratis.png'
 import gizi from './gizi.png'
 import trainer from './trainer.png'
 import video from './video.png'
+import i5 from "../../assets/icon/5.keuntungan.svg"
 
 const OutLine = () => {
   return (
@@ -14,7 +15,7 @@ const OutLine = () => {
           <div className="col-1">
             <div className="content-center">
               <div className="content-title display-block">
-                <img className="content-icon nomargin" src="https://bibit.id/img/ideaIcon.png" alt="icon idea" />
+                <img className="content-icon nomargin" src={i5} alt="icon idea" />
                 <h3 className="margin-top-30">KEUNTUNGAN MENGGUNAKAN INAFITGO</h3>
               </div>
             </div>

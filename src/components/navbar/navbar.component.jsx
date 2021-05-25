@@ -31,12 +31,12 @@ const Navbar = () => {
           <nav>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="#tentang">About</a></li>
+              {/* <li><a href="#tentang">About</a></li> */}
               <li><a href="#feature">Feature</a></li>
               <li><a href="#client">Client</a></li>
               <li><a href="/event">Event</a></li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="/contact">Contact</a></li>
+              {/* <li><a href="/contact">Contact</a></li> */}
             </ul>
           </nav>
         </div>

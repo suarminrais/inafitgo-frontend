@@ -1,6 +1,6 @@
 import React from 'react'
 import './section.styles.css'
-import phone from './ui.png'
+import phone from '../../assets/mockup/login.svg'
 
 const Section = () => {
   return (
@@ -27,7 +27,7 @@ const Section = () => {
         </div>
         <div className="col-flex width-40 nomargin-right">
           <div className="phone-container" style={{ transform: 'matrix(1, 0, 0, 1, -9.15, 3.30833)' }}>
-            <img className="phone-img" src={phone} alt="phone" />
+            <img className="margin-auto width-60 phone-img" src={phone} alt="phone" />
           </div>
         </div>
       </div>
