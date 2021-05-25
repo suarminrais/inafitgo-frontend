@@ -11,7 +11,7 @@ const Section = () => {
           <div className="banner-desc">
             <h1>BERGIZI DAN BUGAR DENGAN INAFITGO <br /> #SEHATBERSAMAINAFITGO</h1>
             <h2>INAFITGO membantu anda dalam mengatur pola gizi yang baik dengan berkonsultasi dengan Ahli Gizi dan Membentuk tubuh yang ideal bersama Trainer Profesional yang tersertifikasi.</h2>
-            <ul className="digital-store">
+            {/* <ul className="digital-store">
               <li className="inline-block">
                 <a href="https://play.google.com/store/apps/details?id=com.bibit.bibitid" target="_blank" rel="noopener noreferrer">
                   <img src="https://bibit.id/img/playStore.png" alt="icon playstore" />
@@ -22,7 +22,7 @@ const Section = () => {
                   <img src="https://bibit.id/img/appStore.png" alt="icon appstore" />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="col-flex width-40 nomargin-right">
